@@ -10,7 +10,8 @@ public class Main {
         }
     }
 
-    static void method1(){
+    //throws keyword becomes optional here as it is an unchecked exception
+    static void method1() { // throws RuntimeException(){
         throw new RuntimeException(new ArithmeticException());
     }
 }
