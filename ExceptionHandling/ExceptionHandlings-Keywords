@@ -1,0 +1,11 @@
+try{}                - must be followed by either catch or finally block.
+catch(Exception e){} - Exceptions thrown in the try block are caught here.
+finally              - cleanup codes are written here,Ex: DB connection can be closed after usage.
+throw                - Used to throw an exception, must be caught by a catch block.
+throws               - Written in method signature, says this method might throw an exception.
+try-with-resources   - It doesn't need a catch or finally block as it implements AutoCloseable.
+Throwable            - Throwable is the super class for both Error and Exception.
+Chained Exception    - Chained Exceptions are used to find the cause of the Exception. Ex: throw new Exception(new NullPointerException());
+
+
+
